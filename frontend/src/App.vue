@@ -1,16 +1,17 @@
 <template>
-<h1>{{ name  }}</h1>
+<NavBar />
 </template>
 
 <script>
 
+import NavBar from "@/components/NavBar.vue"
+
 export default {
     name: "App",
-    data() {
-        return{
-            name: "Samet"
-        }
+    components : {
+        NavBar
     }
+    
 }
 
 </script>
