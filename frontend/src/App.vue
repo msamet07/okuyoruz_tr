@@ -1,16 +1,19 @@
 <template>
 <NavBar />
+<RouterView />
 </template>
 
 <script>
 
 import NavBar from "@/components/NavBar.vue"
+import { RouterView } from "vue-router";
 
 export default {
     name: "App",
     components : {
-        NavBar
-    },
+    NavBar,
+    
+},
     data() {
         return{
             message:"Merhaba",
