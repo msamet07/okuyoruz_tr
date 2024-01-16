@@ -18,7 +18,7 @@ const router = createRouter({
         },
         {
             path: "/books",
-            name: 'Books',
+            name: 'books',
             component:BooksView,
         },
         {
@@ -36,7 +36,8 @@ const router = createRouter({
             name: 'register',
             component:RegisterView,
         },
-    ]
+    ],
+    linkActiveClass:'active-link',
 })
 
 export default router;
